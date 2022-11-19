@@ -5,7 +5,7 @@ import PrimaryButton from '../../../conponents/PrimaryButton/PrimaryButton';
 const YourTerms = () => {
     return (
         <div>
-            <div className="hero py-3 md:py-5 lg:py-12">
+            <div className="hero py-3 md:py-5 lg:py-12 lg:mb-28">
                 <div className="hero-content flex-col-reverse lg:flex-row-reverse">
                     <div className='lg:w-1/2'>
                         <h1 className="text-3xl md:text-2xl lg:text-5xl font-bold text-gray-500">Your New Smile Starts Here</h1>
