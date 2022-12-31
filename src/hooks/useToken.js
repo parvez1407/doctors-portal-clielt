@@ -8,8 +8,8 @@ const useToken = email => {
                 .then(res => res.json())
                 .then(data => {
                     if (data.accessToken) {
-                        localStorage.setItem('doctors-portal', data.accessToken)
-                        setToken(data.accessToken)
+                        localStorage.setItem('doctors-portal', data.accessToken);
+                        setToken(data.accessToken);
                     }
                 });
         }

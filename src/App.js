@@ -7,7 +7,7 @@ import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <div className='max-w-[1440px] mx-auto text-gray-500'>
-      <ToastContainer />
+      <ToastContainer position="top-center" />
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

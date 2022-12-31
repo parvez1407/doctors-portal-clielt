@@ -25,7 +25,7 @@ const AddDoctor = () => {
         const image = data.image[0]
         const formData = new FormData();
         formData.append('image', image);
-        const url = `https://api.imgbb.com/1/upload?expiration=600&key=${imgHostingKey}`;
+        const url = `https://api.imgbb.com/1/upload?key=${imgHostingKey}`;
         fetch(url, {
             method: 'POST',
             body: formData
@@ -56,7 +56,7 @@ const AddDoctor = () => {
                                 toast.success(`${data.name} is added successfully`, { autoClose: 500 })
                                 navigate('/dashboard/manage-doctors')
                             }
-                        })
+                        });
                 }
             })
     }
