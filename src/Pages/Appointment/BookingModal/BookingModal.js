@@ -27,7 +27,7 @@ const BookingModal = ({ treatment, selectedDate, setTreatment, refetch }) => {
             price
         }
 
-        fetch('https://doctors-portal-server-six-eta.vercel.app/bookings', {
+        fetch(' https://doctors-portal-server-six-eta.vercel.app/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
